@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import CardFeature from "./CardFeature";
 import FilterProduct from "./FilterProduct";
 
+
 const AllProduct = ({ heading }) => {
   const productData = useSelector((state) => state.product.productList);
   const categoryList = [...new Set(productData.map((el) => el.category))];
