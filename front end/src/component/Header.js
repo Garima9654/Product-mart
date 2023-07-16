@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assest/logo.png";
-import { HiOutlineUserCircle } from "react-icons/hi";
+import { HiOutlineOfUserCircle } from "react-icons/hi";
 import { BsCartFill } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
 import { logoutRedux } from "../redux/userSlice";
