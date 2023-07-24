@@ -16,6 +16,7 @@ import Contact from "./page/Contact";
 import Login from "./page/login";
 import Newproduct from "./page/Newproduct";
 import Signup from "./page/Signup";
+import Login from "./page/login";
 import { store } from "./redux/index";
 import { Provider } from "react-redux";
 import Cart from "./page/Cart";
