@@ -3,7 +3,7 @@ import { toast } from "react-hot-toast";
 
 const initialState = {
   productList: [],
-  cartItem: [],
+  cartItem: [], 
 };
 
 export const productSlice = createSlice({
