@@ -22,7 +22,7 @@ export const productSlice = createSlice({
         const total = action.payload.price;
         state.cartItem = [
           ...state.cartItem,
-          { ....action.payload, qty: 1, total: total },
+          { ...action.payload, qty: 1, total: total },
         ];
       }
     },
