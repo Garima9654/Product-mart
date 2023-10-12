@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json({ limit: "10mb" }));
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080; 
 
 //mongodb connection
 mongoose.set("strictQuery", false);
